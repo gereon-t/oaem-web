@@ -80,3 +80,4 @@ test/tmp
 *.db
 .env
 data/
+nginx.conf
