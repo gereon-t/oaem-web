@@ -65,7 +65,7 @@ def create_json_fig(oaem: Oaem, sun_track: SunTrack) -> str | None | Any:
             bgcolor="#c2c2c2",
         ),
         width=400,
-        font=dict(size=30),
+        font=dict(size=24),
         showlegend=False,
         paper_bgcolor="#e5ecf6",
         plot_bgcolor="#fff",
