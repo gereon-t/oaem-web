@@ -1,0 +1,14 @@
+gmldata
+citygmldata
+images
+.venv
+.vscode
+Dockerfile
+docker-compose.yml
+__pycache__
+CITATION.cff
+.mypy_cache/
+oaem-export/
+scripts/
+.git/
+.*/
