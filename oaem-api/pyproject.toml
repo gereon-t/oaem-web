@@ -6,7 +6,6 @@ authors = ["Gereon Tombrink <tombrink@igg.uni-bonn.de>"]
 maintainers = ["Gereon Tombrink <tombrink@igg.uni-bonn.de>"]
 license = "MIT"
 keywords = ["sky obstruction", "elevation mask", "obstruction adaptive", "OAEM", "OAEM-API", "GNSS"]
-readme = "README.md"
 homepage = "https://github.com/gereon-t/oaemapi"
 repository = "https://github.com/gereon-t/oaemapi.git"
 packages = [{ include = "app"}]
