@@ -21,12 +21,9 @@ const getPlot = async (position) => {
             throw new Error('Plotting failed');
         }
 
-        try {
-            const json_data = await response.json();
-            return json_data;
-        } catch (error) {
-            console.error('Failed to parse response:', error);
-        }
+        const json_data = await response.json();
+        return json_data;
+
 
     } catch (error) {
         console.error('Failed to plot oaem:', error);
