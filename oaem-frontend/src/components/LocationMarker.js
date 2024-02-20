@@ -12,7 +12,7 @@ const LocationMarker = ({ position, setPosition }) => {
         },
     });
 
-    const positionText = position === null ? "null" : `Selected Position: ${position[0].toFixed(6)}°, ${position[1].toFixed(6)}°`;
+    const positionText = position === null ? 'null' : `Selected Position: ${position[0].toFixed(6)}°, ${position[1].toFixed(6)}°`;
 
     return position === null ? null : (
         <Marker position={position}>

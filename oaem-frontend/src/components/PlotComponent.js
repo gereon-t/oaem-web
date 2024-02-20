@@ -47,8 +47,8 @@ const PlotModal = ({ isOpen, setIsPlotModalOpen, position }) => {
 
     return (
         position && isOpen && (
-            <div className="modal">
-                <div className="modal-content">
+            <div className='modal'>
+                <div className='modal-content'>
                     <div className='modal-title'>OAEM Plot</div>
 
                     <div className='modal-container'>
@@ -56,10 +56,10 @@ const PlotModal = ({ isOpen, setIsPlotModalOpen, position }) => {
                             {plotlyFigure ? <Plot
                                 data={plotlyFigure.data}
                                 layout={plotlyFigure.layout}
-                            /> : "Failed to load plot"}
+                            /> : 'Failed to load plot'}
                         </div>}
                     </div>
-                    <div className="modal-button-group">
+                    <div className='modal-button-group'>
                         <button className='modal-button' onClick={onClose}>Close</button>
                     </div>
                 </div>
