@@ -3,8 +3,8 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 import LocationMarker from './LocationMarker';
 import CurrentPositionButton from './CurrentPositionButton';
 
-const initialPosition = [51.505, 8]
-const initialZoom = 6
+const initialPosition = [51, 6.89]
+const initialZoom = 10
 
 const MapComponent = ({ position, setPosition }) => {
     const [map, setMap] = useState(null)
